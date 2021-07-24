@@ -1,0 +1,169 @@
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        height: 12vh;
+        background-color: whitesmoke;
+    }
+    
+    .flex img {
+        margin-top: 25px;
+        position: relative;
+        left: 20px;
+    }
+    
+    #dropdown {
+        width: 20vw;
+        /* margin: 15px; */
+        height: 8vh;
+        border: 1px solid black;
+    }
+    
+    #search {
+        width: 40vw;
+        height: 8vh;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    
+    #olx {
+        width: 8vw;
+        height: 8vh;
+    }
+    
+    #chat {
+        width: 4vw;
+        height: 4vh;
+    }
+    
+    #noti {
+        width: 4vw;
+        height: 4vh;
+    }
+    
+    #prof {
+        width: 3vw;
+        height: 6vh;
+    }
+    
+    #drop {
+        width: 4vw;
+        height: 4vh;
+    }
+    
+    #img {
+        width: 9vw;
+        height: 8vh;
+        position: relative;
+        bottom: 8px;
+    }
+    
+    .nav {
+        display: flex;
+        margin: 5px;
+    }
+    
+    #aval {
+        font-size: large;
+        color: black;
+        /* font-weight: bold; */
+        font-weight: light;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color: black;
+        margin: 14px;
+        font-size: 15px;
+    }
+    
+    .Image img {
+        width: 100%;
+        height: 45vh;
+    }
+    
+    #fresh {
+        margin: 10px;
+    }
+    
+    #btn {
+        position: relative;
+        left: 600px;
+        top: 100px;
+    }
+    
+    .responsive {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 30vh;
+        background-color: rgba(245, 245, 245, 0.473);
+    }
+    
+    .responsive img {
+        width: 7vw;
+        height: 7vh;
+    }
+    
+    #res {
+        width: 35vw;
+        height: 100%;
+    }
+    
+    .para {
+        position: relative;
+        left: 150px;
+        top: 20px;
+        font-weight: bolder;
+    }
+    
+    .para p {
+        font-size: larger;
+        font-weight: lighter;
+    }
+    
+    .link {
+        position: relative;
+        left: 300px;
+        top: 50px;
+    }
+    
+    .link p {
+        font-weight: bolder;
+    }
+    
+    .last {
+        background-color: whitesmoke;
+        height: 40vh;
+    }
+    
+    .last p {
+        font-weight: bold;
+    }
+    
+    .last a {
+        text-decoration: none;
+        /* color: black; */
+        font-size: smaller;
+        color: black;
+    }
+    
+    #con {
+        width: 6vw;
+        height: 5vh;
+    }
+    
+    .footer {
+        background-color: #1B4D3E;
+        color: white;
+        height: 7vh;
+        text-align: end;
+        font-size: small;
+        padding: 9px;
+    }
+    
+    @media screen and (max-width:850) {
+        #dropdown {
+            height: 5vh;
+            width: 5vh;
+        }
+    }
